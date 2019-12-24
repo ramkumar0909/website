@@ -99,7 +99,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(11, 11, 11, 0.6) 0%, rgba(11, 11, 11, 0.9) 75%, #161616 100%), url("../img/front-img.jpg");
+  /* background: linear-gradient(to bottom, rgba(11, 11, 11, 0.6) 0%, rgba(11, 11, 11, 0.9) 75%, #161616 100%), url("../img/front-img.jpg"); */
+  background: linear-gradient(to bottom, rgba(11, 11, 11, 0.3) 0%, rgba(11, 11, 11, 0.6) 75%, #161616 100%), url("../img/front-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -297,7 +298,7 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #f18142 !important;
+  background-color: # gb v !important;
 }
 
 .text-primary {
