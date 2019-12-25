@@ -100,7 +100,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   /* background: linear-gradient(to bottom, rgba(11, 11, 11, 0.6) 0%, rgba(11, 11, 11, 0.9) 75%, #161616 100%), url("../img/front-img.jpg"); */
-  background: linear-gradient(to bottom, rgba(11, 11, 11, 0.3) 0%, rgba(11, 11, 11, 0.6) 75%, #161616 100%), url("../img/front-img.jpg");
+  background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0) 100%), url("../img/empire-state.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -109,23 +109,24 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.6rem;
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+  /* background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 
@@ -136,14 +137,14 @@
   }
 
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.6rem;
   }
 
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    max-width: 50rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -175,7 +176,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 3rem;
   /* background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
 }
 
@@ -184,7 +185,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
@@ -205,7 +206,7 @@
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
 
   .projects-section .project-text hr {
@@ -313,4 +314,9 @@ footer {
   color: #f18142;
   padding-right: 0px;
   border-right: 2px solid #ccc;
+}
+
+.bg-menu {
+  background: rgba(30,87,153,0.7);
+  /* background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0.2) 100%); */
 }
