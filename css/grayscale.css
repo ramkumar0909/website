@@ -11,8 +11,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #f18142;
+  border: 1px solid #f18142;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -79,7 +79,7 @@
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #f18142;
   }
 
   #mainNav.navbar-shrink .nav-link:active {
@@ -87,9 +87,9 @@
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #f18142;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #f18142;
   }
 }
 
@@ -99,7 +99,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/front-img.jpg");
+  /* background: linear-gradient(to bottom, rgba(11, 11, 11, 0.6) 0%, rgba(11, 11, 11, 0.9) 75%, #161616 100%), url("../img/front-img.jpg"); */
+  background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0) 100%), url("../img/empire-state.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -108,23 +109,24 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.6rem;
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+  /* background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 
@@ -135,14 +137,14 @@
   }
 
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.6rem;
   }
 
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    max-width: 50rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -157,7 +159,7 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #f18142;
 }
 
 .btn-primary:hover {
@@ -174,8 +176,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 3rem;
+  /* background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
 }
 
 .about-section p {
@@ -183,7 +185,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
@@ -193,7 +195,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #f18142;
   }
 }
 
@@ -204,11 +206,11 @@
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
 
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #f18142;
     border-width: .25rem;
     width: 30%;
   }
@@ -240,7 +242,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #f18142;
 }
 
 .contact-section .card h4 {
@@ -251,7 +253,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #f18142;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -284,7 +286,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #f18142;
 }
 
 a:focus, a:hover {
@@ -297,11 +299,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: # gb v !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #f18142 !important;
 }
 
 footer {
@@ -309,7 +311,12 @@ footer {
 }
 
 .icon-color {
-  color: RGB(248, 153, 29);
+  color: #f18142;
   padding-right: 0px;
   border-right: 2px solid #ccc;
+}
+
+.bg-menu {
+  background: rgba(30,87,153,0.7);
+  /* background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0.2) 100%); */
 }
