@@ -83,7 +83,7 @@
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #031e3f;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
@@ -100,7 +100,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   /* background: linear-gradient(to bottom, rgba(11, 11, 11, 0.6) 0%, rgba(11, 11, 11, 0.9) 75%, #161616 100%), url("../img/front-img.jpg"); */
-  background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0) 100%), url("../img/empire-state.jpg");
+  background: linear-gradient(to bottom, rgba(3, 30, 63,1) 0%,rgba(3, 30, 63, 0.3) 100%), url("../img/library.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -109,24 +109,39 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 3rem;
-  line-height: 3.5rem;
-  letter-spacing: 0.6rem;
-  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
-  /* background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
+  /* background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); */
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1.3rem;
+  max-width: 25rem;
+  font-size: 1.2rem;
+}
+
+.masthead h3 {
+  max-width: 25rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 3rem;
+  }
+  .masthead h2 {
+    max-width: 38rem;
+    font-size: 1.5rem;
+  }
+
+  .masthead h3 {
+    max-width: 50rem;
+    font-size: 1rem;
   }
 }
 
@@ -146,6 +161,11 @@
     max-width: 50rem;
     font-size: 1.5rem;
   }
+
+  .masthead h3 {
+    max-width: 50rem;
+    font-size: 1.3rem;
+  }
 }
 
 .btn {
@@ -163,16 +183,16 @@
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #031e3f;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #031e3f;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #031e3f !important;
 }
 
 .about-section {
@@ -291,7 +311,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #031e3f;
 }
 
 .bg-black {
@@ -317,6 +337,15 @@ footer {
 }
 
 .bg-menu {
-  background: rgba(30,87,153,0.7);
+  background: #031e3f;
   /* background: linear-gradient(to bottom, rgba(30,87,153,0.7) 0%,rgba(125,185,232,0.2) 100%); */
+}
+
+.bg-dark-blue {
+  background-color: #031e3f !important;
+}
+
+.custom-divider {
+  height: 1rem;
+  background-color: #031e3f;
 }
