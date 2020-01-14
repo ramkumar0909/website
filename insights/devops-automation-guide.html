@@ -110,8 +110,7 @@
     <section>
       <div class="section-spacing"></div>
       <h2></h2>
-      <p>What is DevOps? Why we require DevOps? How DevOps helps us to thrive the productivity? I am seriously not going to talk about this.</p>
-      <p>All I am going to explain is how to kick start the DevOps automation process just in a few hours.</p>
+      <p>DevOps automation is the key enabler to achieve a fulfilled DevOps process. Let us jump in to understand each step involved in automating the entire development journey.</p>
     </section>
     <section>
       <div class="section-spacing"></div>
@@ -170,7 +169,7 @@
         <li>CI/CD pipeline pulls the source code from the pre-defined SCM repository.</li>
         <li><p>Build & unit-tests job begins immediately after the source code download is done. It is advisable to use build tool for your project. CI/CD must have the build software ready in order to execute the build script. Note that it is not mandatory that ‘build & unit-tests’ job must run in the same CI/CD host machine.</p>
           <p>Unit tests ensure the code integrity during the development cycle. Refer the following feed for more information on unit-test.
-          <a href="increased-productivity-by-test-driven-development.html">Test driven development</a></p>
+          <br/><a href="increased-productivity-by-test-driven-development.html">Test driven development</a></p>
         </li>
         <li>‘Build artifacts’ job begins as soon as source gets built. Artifact builder prepare the built code as a deployable entity. Deployable artifacts are pushed to artifact repository for deployment and maintenance purpose.</li>
         <li>“Provision environment” is an optional step, purely depends on the technology used. For monolithic applications, it would make sense to provision the environment once and make deployment multiple times. For microservices, it would make sense to provision the environment on the go. Containers are best suited for microservices as the provisioning can be done easily just by rolling out the container images, else provisioning scripts need to be written using config management tools. However, operation teams can leverage config management tools for provisioning systems on demand basis. A new trending topic is Infrastructure as a code, where one can write scripts to provision the entire environment. Most of the cloud native infrastructure creation happens via code.</li>
