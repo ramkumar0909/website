@@ -9,23 +9,23 @@
 
 <url>
   <loc>https://www.newroniq.com/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.newroniq.com/insights/engineering-the-enterprise-digital-ecosystem.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.newroniq.com/insights/increased-productivity-by-test-driven-development.html</loc>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://www.newroniq.com/insights/devops-automation-guide.html</loc>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.newroniq.com/insights/architecting-the-digital-landscape.html</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://www.newroniq.com/insights/increased-productivity-by-test-driven-development.html</loc>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://www.newroniq.com/index.html</loc>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 
